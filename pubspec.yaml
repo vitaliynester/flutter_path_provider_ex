@@ -1,4 +1,4 @@
-name: path_provider_ex
+name: path_provider_ex2
 description: App files directory, root storage, and available space for ext storage and SD card on Android
 version: 2.0.1
 homepage: https://github.com/AmudAnan/flutter_path_provider_ex
