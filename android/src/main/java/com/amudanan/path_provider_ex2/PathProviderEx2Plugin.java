@@ -1,4 +1,4 @@
-package com.amudanan.path_provider_ex;
+package com.amudanan.path_provider_ex2;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -12,7 +12,7 @@ import io.flutter.plugin.common.MethodChannel.MethodCallHandler;
 import io.flutter.plugin.common.MethodChannel.Result;
 
 /** PathProviderExPlugin */
-public class PathProviderExPlugin implements MethodCallHandler, FlutterPlugin {
+public class PathProviderEx2Plugin implements MethodCallHandler, FlutterPlugin {
   private MethodChannel channel;
   private static final String CHANNEL_NAME = "path_provider_ex";
   private Context applicationContext;

@@ -1,4 +1,4 @@
-group 'com.amudanan.path_provider_ex'
+group 'com.amudanan.path_provider_ex2'
 version '1.0-SNAPSHOT'
 
 buildscript {

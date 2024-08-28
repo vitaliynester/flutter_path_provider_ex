@@ -1,4 +1,4 @@
-package com.amudanan.path_provider_ex;
+package com.amudanan.path_provider_ex2;
 
 import android.content.Context;
 import java.util.HashMap;

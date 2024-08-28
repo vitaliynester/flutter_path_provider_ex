@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'dart:async';
 
 import 'package:flutter/services.dart';
-import 'package:path_provider_ex/path_provider_ex.dart';
+import 'package:path_provider_ex2/path_provider_ex2.dart';
 
 void main() => runApp(MyApp());
 
@@ -25,7 +25,7 @@ class _MyAppState extends State<MyApp> {
     late List<StorageInfo> storageInfo;
     // Platform messages may fail, so we use a try/catch PlatformException.
     try {
-      storageInfo = await PathProviderEx.getStorageInfo();
+      storageInfo = await PathProviderEx2.getStorageInfo();
     } on PlatformException {}
 
     // If the widget was removed from the tree while the asynchronous platform

@@ -3,7 +3,7 @@ import 'dart:math';
 
 import 'package:flutter/services.dart';
 
-class PathProviderEx {
+class PathProviderEx2 {
   static const MethodChannel _channel = const MethodChannel('path_provider_ex');
 
   // static Future<String> get platformVersion async {
